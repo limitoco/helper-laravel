@@ -1,5 +1,7 @@
 {
     "name": "limito/helper",
+     "homepage": "https://alihossein.ir",
+    "keywords": ["laravel","package","laravel package","create laravel package"],
     "license": "MIT",
     "authors": [
         {
@@ -17,5 +19,6 @@
             "src/helpers/common.php",
             "src/helpers/response.php"
         ]
-    }
+    },
+     "minimum-stability": "dev"
 }
