@@ -10,8 +10,6 @@
         }
     ],
     "require": {
-      
-        "laravel/laravel": "5.*"
     },
     "autoload": {
         "psr-4": {
