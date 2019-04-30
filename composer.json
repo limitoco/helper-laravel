@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Limito\\Helper": "src/"
+            "Limito\\Helper\\": "src/"
         },
         "files": [
             "src/helpers/backoffice.php",
