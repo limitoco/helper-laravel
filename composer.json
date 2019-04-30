@@ -9,7 +9,10 @@
             "email": "msahost@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": "^7.2",
+        "laravel/laravel": "5.*"
+    }
     "autoload-dev": {
         "psr-4": {
             "Limito\\Helper": "src/"
