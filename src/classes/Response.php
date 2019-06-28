@@ -38,15 +38,15 @@ class Response
         ];
     }
 
-    function error($message = null)
+    function error($message = null,response=200)
     {
         $this->status = false;
         $this->message = $message;
-        return [
+        return response([
             'status' => $this->status,
             'message' => $this->message,
             'data' => $this->data,
-        ];
+        ],response);
     }
 
 }
