@@ -38,7 +38,7 @@ class Response
         ];
     }
 
-    function error($message = null,response=200)
+    function error($message = null,$response=200)
     {
         $this->status = false;
         $this->message = $message;
@@ -46,7 +46,7 @@ class Response
             'status' => $this->status,
             'message' => $this->message,
             'data' => $this->data,
-        ],response);
+        ],$response);
     }
 
 }
