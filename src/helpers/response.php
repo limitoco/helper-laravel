@@ -12,7 +12,7 @@ if (! function_exists('success')) {
 }
 
 if (! function_exists('error')) {
-    function error($message, $data = null) {
-        return Limito\Helper\Response::Instance()->data($data)->error($message);
+    function error($message, $data = null,$response=200) {
+        return Limito\Helper\Response::Instance()->data($data)->error($message,$response);
     }
 }
