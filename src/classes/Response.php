@@ -42,11 +42,11 @@ class Response
     {
         $this->status = false;
         $this->message = $message;
-        return response([
+        return [
             'status' => $this->status,
             'message' => $this->message,
             'data' => $this->data,
-        ],$response);
+        ];
     }
 
 }
