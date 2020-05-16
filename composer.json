@@ -17,12 +17,7 @@
     "autoload": {
         "psr-4": {
             "Limito\\Helper\\": "src/"
-        },
-        "files": [
-            "src/helpers/backoffice.php",
-            "src/helpers/common.php",
-            "src/helpers/response.php"
-        ]
+        }
     },
      "minimum-stability": "dev"
 }
